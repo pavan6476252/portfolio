@@ -4,7 +4,7 @@ import Data from './Data'
 import './home.css'
 import ScrollDown from './ScrollDown'
 
-function Home() {
+function HomeSec() {
   return (
     <section className="home section" id="home">
       <div style={{ rowGap: "6.7em" }} className="  container grid home__container">
@@ -20,4 +20,4 @@ function Home() {
   )
 }
 
-export default Home
+export default HomeSec

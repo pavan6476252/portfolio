@@ -1,5 +1,6 @@
 import Footer from "./components/Footer/Footer";
-import Home from "./components/Home/HOme";
+import HomeSec from "./components/Home/HomeSec";
+
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Header from "./components/header/Header";
@@ -13,8 +14,7 @@ export default function App() {
     <>
       <Header />
       <main className="main">
-
-        <Home />
+    <HomeSec/>
         <About/>
         <Skills/>
         <Services/>

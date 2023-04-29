@@ -2,6 +2,9 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
+[Preview Here](https://pavankumar-pavan6476252.vercel.app/)
+
+
 This is a simple portfolio website project created as a showcase of my skills and work. The website is built using HTML, CSS, and JavaScript.
 
 ## Technologies Used
