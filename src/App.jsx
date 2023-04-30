@@ -14,7 +14,7 @@ export default function App() {
     <>
       <Header />
       <main className="main">
-    <HomeSec/>
+        <HomeSec/>
         <About/>
         <Skills/>
         <Services/>

@@ -13,7 +13,7 @@ function About() {
                 <img src={MyImage}  className='about__img' alt="about__img" srcSet="" />
                 <div className="about__data">
                     <Info />
-                    <p className="about__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus aliquam facere amet corporis eligendi repellendus exercitationem commodi! Enim ullam provident tempore! Iusto voluptatum, natus facere voluptatibus ullam ipsam adipisci officia.</p>
+                    <p className="about__description">I'm an experienced software developer who enjoys working with Android, web development using MERN Stack, and frameworks like React and Flutter. I'm passionate about staying up-to-date with the latest technologies and learning new things. My expertise in various areas of development makes me a valuable asset to any team or project, and I can create high-quality, user-friendly applications that meet the needs of clients or users. My dedication to delivering excellent results ensures that your project will be successful. Overall, I'm confident that my skills, knowledge, and passion for development will help me excel in the software industry and contribute to the success of any project.</p>
                     <a download={""} href={CV} className="button button--flex">Download CV
                         <svg
                             class="button__icon"

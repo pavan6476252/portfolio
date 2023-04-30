@@ -55,8 +55,8 @@ function Data() {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Flutter Developer</h3>
-            <p className="home__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam voluptatem provident suscipit minima voluptate nihil excepturi officia atque harum impedit.</p>
+            <h3 className="home__subtitle">MERN and App Developer</h3>
+            <p className="home__description">I'm a skilled software developer with experience in Android, web development (MERN Stack), Flutter. I'm passionate about learning new technologies and creating high-quality applications that meet clients' needs. With my expertise and dedication to excellence, I'm a valuable asset to any team or project.</p>
             <a href="#contact" className="button button--flex">Say Hello
                 <svg
                     class="button__icon"
