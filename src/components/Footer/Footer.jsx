@@ -27,6 +27,16 @@ function Footer() {
                     href="http://twitter.com/pavan_kumar_tg">
                         <i className="bx bxl-twitter"></i>
                     </a>
+                    <a 
+                      className='footer__social-link'
+                    href="https://github.com/pavan6476252">
+                        <i className="bx bxl-github"></i>
+                    </a>
+                    <a 
+                      className='footer__social-link'
+                    href="https://www.linkedin.com/in/meesala-pavan-kumar-015472230/">
+                          <i className="bx bxl-linkedin"></i>
+                    </a>
 
                 </div>
                 <span className='footer__copy'>All rights reserved</span>

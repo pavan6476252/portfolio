@@ -10,7 +10,7 @@ function Services() {
             <span className='section__subtitle'>What i offer</span>
             <div className="services__container container grid">
                 <div className="services__content"><div><i className="uil uil-web-grid services_icon services__icon"></i>
-                    <h3 className="services__title">Service 1</h3>
+                    <h3 className="services__title">Web developement</h3>
                 </div>
                     <span className="services__button" onClick={()=>setActiveTab(1)}>View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
@@ -40,7 +40,7 @@ function Services() {
                 </div>
                 {/* //secons  */}
                 <div className="services__content"><div><i className="uil uil-android services_icon services__icon"></i>
-                    <h3 className="services__title">Service 2</h3>
+                    <h3 className="services__title">Mobile Application</h3>
                 </div>
                     <span className="services__button">View More
                         <i className="uil uil-arrow-right services__button-icon"></i>
@@ -71,8 +71,8 @@ function Services() {
 
 
   {/* //secons  */}
-  <div className="services__content"><div><i className="uil uil-android services_icon services__icon"></i>
-                    <h3 className="services__title">Service 2</h3>
+  <div className="services__content"><div><i className="bx bx-wrench services_icon services__icon"></i>
+                    <h3 className="services__title">Project Development</h3>
                 </div>
                     <span className="services__button">View More
                         <i className="uil uil-arrow-right services__button-icon"></i>

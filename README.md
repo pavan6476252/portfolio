@@ -2,8 +2,10 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-[Preview Here](https://pavankumar-pavan6476252.vercel.app/)
 
+![image search api](https://repository-images.githubusercontent.com/634314960/feb9ca52-0437-46dc-9912-9536b45011e7)
+
+[Preview Here](https://pavankumar.vercel.app/)
 
 This is a simple portfolio website project created as a showcase of my skills and work. The website is built using HTML, CSS, and JavaScript.
 

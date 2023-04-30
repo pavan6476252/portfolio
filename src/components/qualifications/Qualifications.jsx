@@ -41,11 +41,11 @@ function Qualifications() {
 
                             <div className="qualification__data">
                                 <div>
-                                    <h3 className="qualification__title">Web disgn</h3>
-                                    <span className="qualification__calender">spain Insistute</span>
+                                    <h3 className="qualification__title">10th Class</h3>
+                                    <span className="qualification__calender">Ap model School</span>
                                     <div className="qualification__calender">
                                         <i className="uil uil-calendar-alt"></i>
-                                        2021 - Present
+                                       2018
                                     </div>
                                 </div>
 
@@ -67,11 +67,11 @@ function Qualifications() {
                                 </div>
 
                                 <div>
-                                    <h3 className="qualification__title">Flutter</h3>
-                                    <span className="qualification__calender">spain Insistute</span>
+                                    <h3 className="qualification__title"> Diploma CSE</h3>
+                                    <span className="qualification__calender">Balajee polytechnic</span>
                                     <div className="qualification__calender">
                                         <i className="uil uil-calendar-alt"></i>
-                                        2021 - Present
+                                        2022
                                     </div>
                                 </div>
                             </div>
@@ -79,11 +79,11 @@ function Qualifications() {
                             {/* content 3 */}
                             <div className="qualification__data">
                                 <div>
-                                    <h3 className="qualification__title">Web disgn</h3>
-                                    <span className="qualification__calender">spain Insistute</span>
+                                    <h3 className="qualification__title">Engineering-CSE</h3>
+                                    <span className="qualification__calender">Vignan institute of information technology</span>
                                     <div className="qualification__calender">
                                         <i className="uil uil-calendar-alt"></i>
-                                        2021 - Present
+                                        2022 - Present
                                     </div>
                                 </div>
 
@@ -96,7 +96,7 @@ function Qualifications() {
 
                             {/* content 2 */}
 
-                            <div className="qualification__data">
+                            {/* <div className="qualification__data">
 
                                 <div></div>
                                 <div>
@@ -112,7 +112,7 @@ function Qualifications() {
                                         2021 - Present
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
 
                         </div>
@@ -126,11 +126,11 @@ function Qualifications() {
                         >
                             <div className="qualification__data">
                                 <div>
-                                    <h3 className="qualification__title">kkk</h3>
-                                    <span className="qualification__calender">spain Insistute</span>
+                                    <h3 className="qualification__title">Flutter</h3>
+                                    <span className="qualification__calender">Self Learning</span>
                                     <div className="qualification__calender">
                                         <i className="uil uil-calendar-alt"></i>
-                                        2021 - Present
+                                        2020 - Present
                                     </div>
                                 </div>
 
@@ -152,11 +152,11 @@ function Qualifications() {
                                 </div>
 
                                 <div>
-                                    <h3 className="qualification__title">kkk</h3>
-                                    <span className="qualification__calender">spain Insistute</span>
+                                    <h3 className="qualification__title">MERN Stack</h3>
+                                    <span className="qualification__calender">Self Learning</span>
                                     <div className="qualification__calender">
                                         <i className="uil uil-calendar-alt"></i>
-                                        2021 - Present
+                                        2020 - Present
                                     </div>
                                 </div>
                             </div>
@@ -164,11 +164,11 @@ function Qualifications() {
                             {/* content 3 */}
                             <div className="qualification__data">
                                 <div>
-                                    <h3 className="qualification__title">kkk</h3>
-                                    <span className="qualification__calender">spain Insistute</span>
+                                    <h3 className="qualification__title">DevOps</h3>
+                                    <span className="qualification__calender">Self Learnig</span>
                                     <div className="qualification__calender">
                                         <i className="uil uil-calendar-alt"></i>
-                                        2021 - Present
+                                        2023 - Present
                                     </div>
                                 </div>
 
@@ -190,11 +190,11 @@ function Qualifications() {
                                 </div>
 
                                 <div>
-                                    <h3 className="qualification__title">Flutter</h3>
-                                    <span className="qualification__calender">spain Insistute</span>
+                                    <h3 className="qualification__title">Machine Learning</h3>
+                                    <span className="qualification__calender">Self Learning</span>
                                     <div className="qualification__calender">
                                         <i className="uil uil-calendar-alt"></i>
-                                        2021 - Present
+                                        2023 - Present
                                     </div>
                                 </div>
                             </div>

@@ -1,8 +1,29 @@
-import React from 'react'
+import React ,{useRef} from 'react'
 import './contact.css'
-
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+
+    const g = import.meta.env.VITE_GMAILID;
+    const s = import.meta.env.VITE_SERVICEKEY;
+    const t = import.meta.env.VITE_TEMPLETID;
+// console.log(s  +" " + g + " " + t);
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+ 
+      emailjs.sendForm(s, t, form.current, g)
+        .then((result) => {
+            // console.log(result.text);
+            alert("mail send");
+
+        }, (error) => {
+            // console.log(error.text);
+            alert("error " +error.text)
+        });
+    };
+
     return (
         <section className="contact section" id="contact">
             <h2 className="section__title">Get in touch</h2>
@@ -13,22 +34,12 @@ function Contact() {
                     <h3 className="contact__title">Talk to me</h3>
                
                     <div className="contact__info">
-                        <div className="contact__card">
-
-                            <i className="bx bx contact__card-icon"></i>
-
-                            <h3 className="contact__card-title"></h3>
-                            <span className="contact__card-data"></span>
-
-                            <a href="" className="contact__button">Write me
-                                <i className="bx bx-right-arrow-alt"></i>
-                            </a>
-                        </div>
+                        
 
                         <div className="contact__card">
 
-                            <i className="bx bx-send-mail contact__card-icon"></i>
-
+                            <i className="bx bx-envelope contact__card-icon"></i>
+                        
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">meealapavan2003@gmail.com</span>
 
@@ -40,8 +51,8 @@ function Contact() {
 
                         <div className="contact__card">
 
-                            <i className="bx bx-whatsapp contact__card-icon"></i>
-
+                            <i className="bx bxl-whatsapp contact__card-icon"></i>
+                           
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">8309407054</span>
 
@@ -52,10 +63,12 @@ function Contact() {
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bx-linkedin contact__card-icon"></i>
+                            <i className="bx bxl-linkedin-square
+                            contact__card-icon"></i>
+                           
                             <h3 className="contact__card-title">Linkedin</h3>
                             <span className="contact__card-data"></span>
-                            <a href="" className="contact__button">Write me
+                            <a href="https://linkedin.com/pavan_kumar_meesala" className="contact__button">Write me
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
 
@@ -66,20 +79,23 @@ function Contact() {
               <div className="contact__content">
                 <h3 className="contact__title">Write me your project</h3>
 
-                <form className='contact__form'>
+
+                <form className='contact__form' ref={form} onSubmit={sendEmail}>
                     <div className="contact__form-div">
                         <label htmlFor="name" className="contact__form-tag">Name</label>
-                        <input id='name' type="text" name='name' className='contact__form-input' placeholder='Insert your name' />
+                        <input id='name' type="text" name="user_name" className='contact__form-input' placeholder='Insert your name' />
                     </div>
 
                     <div className="contact__form-div">
                         <label htmlFor="email" className="contact__form-tag">Email</label>
-                        <input id='email' type="email" name='name' className='contact__form-input' placeholder='Insert your name' />
+                        <input id='email'  
+                         type="email" name="user_email"
+                        className='contact__form-input' placeholder='Insert your name' />
                     </div>
 
                     <div className="contact__form-div contact__form-area">
                         <label htmlFor="desc" className="contact__form-tag">Project</label>
-                        <textarea id='desc' type="text" name='name' cols='30' rows
+                        <textarea id='desc' type="text" name="message" cols='30' rows
                             ='10'
                             className='contact__form-input' placeholder='Write your project idea' ></textarea>
                     </div>

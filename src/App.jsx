@@ -7,7 +7,8 @@ import Header from "./components/header/Header";
 import Qualifications from "./components/qualifications/Qualifications";
 import Services from "./components/serivces/Services";
 import Skills from "./components/skills/Skills";
-import Testimonials from "./components/testimonial/Testimonials";
+import Projects from "./components/projects/Projects";
+
 
 export default function App() {
   return (
@@ -19,7 +20,7 @@ export default function App() {
         <Skills/>
         <Services/>
         <Qualifications/>
-        <Testimonials/>
+        <Projects/>
         <Contact/>
         <Footer/>
       </main>
