@@ -1,0 +1,16 @@
+.topcharts {
+    margin: var(--mb-1);
+  }
+  
+  .topcharts__cards{
+    padding-top: var(--mb-1);
+    display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.topcharts__cards::-webkit-scrollbar {
+  display: none;
+}

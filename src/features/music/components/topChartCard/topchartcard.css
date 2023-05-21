@@ -1,0 +1,33 @@
+.topchartcard {
+    margin: var(--mb-0-5);
+    flex: 0 0 auto;
+    margin-right: 10px;
+    scroll-snap-align: start;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .topchartcard__img {
+    border-radius: 10px;
+    box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .topchartcard .title {
+    width: 170px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .topchartcard .artist {
+    width: 170px;
+    font-size: var(--smaller-font-size);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .topchartcard:hover {
+    transform: scale(1.1);
+  }

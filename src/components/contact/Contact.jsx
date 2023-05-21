@@ -41,7 +41,7 @@ function Contact() {
                             <i className="bx bx-envelope contact__card-icon"></i>
                         
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">meealapavan2003@gmail.com</span>
+                            <span className="contact__card-data">meesalapavan2003@gmail.com</span>
 
                             <a href="mailto:meesalapavan2003@gamil.com" className="contact__button">Write me
                                 <i className="bx bx-right-arrow-alt"></i>

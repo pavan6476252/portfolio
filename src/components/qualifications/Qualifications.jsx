@@ -50,8 +50,8 @@ function Qualifications() {
                                 </div>
 
                                 <div>
-                                    <spain className="qualification__rounder"></spain>
-                                    <spain className="qualification__line"></spain>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
                                 </div>
 
                             </div>
@@ -62,8 +62,8 @@ function Qualifications() {
 
                                 <div></div>
                                 <div>
-                                    <spain className="qualification__rounder"></spain>
-                                    <spain className="qualification__line"></spain>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
                                 </div>
 
                                 <div>
@@ -88,8 +88,8 @@ function Qualifications() {
                                 </div>
 
                                 <div>
-                                    <spain className="qualification__rounder"></spain>
-                                    <spain className="qualification__line"></spain>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
                                 </div>
 
                             </div>
@@ -100,13 +100,13 @@ function Qualifications() {
 
                                 <div></div>
                                 <div>
-                                    <spain className="qualification__rounder"></spain>
-                                    <spain className="qualification__line"></spain>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
                                 </div>
 
                                 <div>
                                     <h3 className="qualification__title">Flutter</h3>
-                                    <span className="qualification__calender">spain Insistute</span>
+                                    <span className="qualification__calender">span Insistute</span>
                                     <div className="qualification__calender">
                                         <i className="uil uil-calendar-alt"></i>
                                         2021 - Present
@@ -135,8 +135,8 @@ function Qualifications() {
                                 </div>
 
                                 <div>
-                                    <spain className="qualification__rounder"></spain>
-                                    <spain className="qualification__line"></spain>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
                                 </div>
 
                             </div>
@@ -147,8 +147,8 @@ function Qualifications() {
 
                                 <div></div>
                                 <div>
-                                    <spain className="qualification__rounder"></spain>
-                                    <spain className="qualification__line"></spain>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
                                 </div>
 
                                 <div>
@@ -173,8 +173,8 @@ function Qualifications() {
                                 </div>
 
                                 <div>
-                                    <spain className="qualification__rounder"></spain>
-                                    <spain className="qualification__line"></spain>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
                                 </div>
 
                             </div>
@@ -185,8 +185,8 @@ function Qualifications() {
 
                                 <div></div>
                                 <div>
-                                    <spain className="qualification__rounder"></spain>
-                                    <spain className="qualification__line"></spain>
+                                    <span className="qualification__rounder"></span>
+                                    <span className="qualification__line"></span>
                                 </div>
 
                                 <div>
