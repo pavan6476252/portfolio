@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import Header from '../header/Header'
 import Drawer from '../header/Drawer';
 import TopCharts from '../topCharts/TopCharts';
-import NewReleases from '../newReleases/NewReleases';
 import MusicPlayer from '../../../utils/MusicPlayer';
 function Music() {
   const [data, setData] = useState(false);
