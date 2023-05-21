@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './header.css';
+import { Link } from "react-router-dom";
 
 
 function Header() {
@@ -37,10 +38,11 @@ function Header() {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#portfolio" className="nav__link">
+                            < Link
+                                to="/music" className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i>
-                                Portfolio
-                            </a>
+                                Music
+                            </Link>
                         </li>
                         <li className="nav__item">
                             <a href="#contact" className="nav__link">
